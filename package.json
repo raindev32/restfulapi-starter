@@ -1,0 +1,51 @@
+{
+  "name": "belajar-restfull-api",
+  "version": "0.0.1",
+  "description": "Api Service For All Project Needed",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app.js",
+    "lint": "eslint --fix --ext .js src"
+  },
+  "pre-push": [
+    "lint"
+  ],
+  "keywords": [
+    "Belajar-restfull-api"
+  ],
+  "author": "Jhony Rainn",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "better-npm-run": "^0.1.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "mariadb": "^2.0.5",
+    "nodemon": "^2.0.6",
+    "sequelize": "^6.3.5",
+    "lodash": "^4.17.15",
+    "bcryptjs": "^2.4.3",
+    "hashids": "^1.2.2",
+    "uuid": "^3.3.2",
+    "ip": "^1.1.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "latest",
+    "sequelize-cli": "^5.5.1"
+  }
+}
